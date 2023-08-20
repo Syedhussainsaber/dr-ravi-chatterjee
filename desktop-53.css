@@ -60,6 +60,15 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+.home-group .email{
+  cursor: pointer;
+}
+
+.home-group .email:hover{
+font-weight: bold;
+}
+
+
 .frame-child1,
 .rectangle-icon {
   position: absolute;
@@ -632,16 +641,18 @@
 }
 .frame-child20 {
   position: absolute;
-  top: 0;
-  left: 78.85rem;
+  top: 30rem;
+  left: 88.85rem;
   border-radius: var(--br-77xl);
   background-color: var(--color-gray-300);
   width: 40.31rem;
-  height: 34.87rem;
+  height: 30.87rem;
+  /* transform: rotate(130deg); */
   transform: rotate(153.17deg);
   transform-origin: 0 0;
 }
 .lorem-ipsum-dolor1 {
+
   position: absolute;
   top: 20.44rem;
   left: 58.63rem;
@@ -652,6 +663,7 @@
 .frame-child21,
 .frame-child22 {
   position: absolute;
+
   top: 1.54rem;
   left: 4.55rem;
   border-radius: 9.39px;
