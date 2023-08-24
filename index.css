@@ -28,7 +28,7 @@
   }
   .it-is-my {
     position: absolute;
-    top: 412px;
+    top: 435px;
     left: 128px;
     font-size: var(--font-size-13xl);
     display: inline-block;
@@ -52,8 +52,24 @@
     width: 481px;
   }
   .home {
+    cursor: pointer;
     position: relative;
+    width: 25%;
+    text-align: center;
   }
+.home:hover{
+  font-weight: 500;
+}
+
+  .bi{
+    display: none;
+  }
+.bi:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  scale: 0.9;
+}
+
   .home-parent {
     position: absolute;
     top: 41px;

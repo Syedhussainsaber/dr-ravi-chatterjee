@@ -1,0 +1,110 @@
+@media screen and (max-width: 1240px) {
+.desktop-53-item{
+right: -5%;
+/* bottom: 3870px; */
+height: 780px;
+}
+}
+
+
+@media screen and (max-width:980px) {
+    .dr-ravi-chatterjee{
+        top: 20px;
+    }
+    .desktop-53-item{
+bottom: 3924px;
+height: 770px;
+    }
+    .home-parent{
+        display: none;
+    }
+    .bi{
+        display: inline-block;
+        position: absolute;
+        left: 88%;
+        top: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:775px){
+    .dr-ravi-chatterjee{
+        top: 20px;
+    }
+.desktop-53-inner{
+    left: -113.63px;
+}
+.empowering-individuals-to{
+    left: 92px;
+}
+.it-is-my{
+    left: 92px;
+    top: 450px;
+}
+
+}
+
+
+
+@media screen and (max-width:700px){
+
+    .empowering-individuals-to{
+        left: 40px;
+    }
+    .it-is-my{
+        left: 40px;
+    }
+
+    .ellipse-div{
+        top: 103px;
+        left: 150px;
+    }
+    
+    .drrc-logo-1{
+        top: 130px;
+        left: 175px;
+    }       
+}
+
+
+
+@media screen and (max-width:520px){
+    .empowering-individuals-to{
+        left: 40px;
+    }
+    .it-is-my{
+        left: 40px;
+    }
+
+    .ellipse-div{
+        top: 90px;
+        left: 40px;
+    }
+    
+    .drrc-logo-1{
+        top: 117px;
+        left: 65px;
+    }       
+}
+
+
+@media screen and (max-width:455px){
+    .bi{
+        top:16.5px;
+        left: 87%;
+    }
+    .dr-ravi-chatterjee{
+        top: 20px;
+        left: 15px;
+    }
+    .empowering-individuals-to{
+        left: 15px;
+        width: 90%;
+
+    }
+    .it-is-my{
+        left: 15px;
+       width: 90%;
+       top:490px;
+    }
+}
