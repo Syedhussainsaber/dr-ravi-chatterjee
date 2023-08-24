@@ -8,10 +8,11 @@
 }
 .desktop-53-item {
   position: absolute;
-  bottom: 3941px;
-  left: calc(50% - 960px);
-  width: 1920px;
-  height: 752px;
+  bottom: 3910px;
+  /* left: calc(50% - 960px); */
+  right: 0px;
+   width: 1920px;
+  height: 810px;
   object-fit: cover;
 }
 .desktop-53-inner {
@@ -550,6 +551,7 @@
   width: 105.12px;
   height: 62.34px;
   opacity: 0.4;
+  padding: 20px;
 }
 .hear-form-other {
   font-weight: 500;
@@ -570,7 +572,7 @@
 .hear-form-other-container {
   position: absolute;
   top: 86px;
-  left: calc(50% - 756.68px);
+  left: calc(50% - 40%);
   display: inline-block;
   width: 765px;
 }
@@ -701,7 +703,7 @@
 }
 .frame-child16 {
   position: absolute;
-  top: 43px;
+  top: 410px;
   left: 1558.18px;
   border-radius: var(--br-77xl);
   background-color: rgba(35, 35, 35, 0.58);
@@ -723,8 +725,8 @@
   font-size: 36px;
 }
 .lorem-ipsum-dolor2 {
-  top: 3602px;
-  left: 1465px;
+  top: 3500px;
+  left: 70%;
   display: inline-block;
   width: 243.86px;
 }
