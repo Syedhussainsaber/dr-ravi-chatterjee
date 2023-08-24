@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
   # Drrc web
+=======
+  # locofy-html-css-project
+>>>>>>> a53a978 (files added)
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
