@@ -25,6 +25,30 @@ height: 770px;
         top: 20px;
         cursor: pointer;
     }
+    .frame-div{
+        width: 100%;
+        left: 0px;
+        padding: 70px 10px 10px;
+    }
+    .rectangle-parent{
+        width: 100%;
+    }
+    .frame-child{
+        width: 100%;
+        border: 1px solid orange;
+    }
+    .i-am-dr-container{
+        top: 51px;
+        left: 10px;
+    }
+    .educator-entrepreneur{
+        left: 10px;
+    }
+    .dr-ravi-chatterjee-container{
+        top: 365px;
+        left: 10px;
+        width: 95.5%;
+    }
 }
 
 @media screen and (max-width:775px){
@@ -47,7 +71,6 @@ height: 770px;
 
 
 @media screen and (max-width:700px){
-
     .empowering-individuals-to{
         left: 40px;
     }
@@ -93,6 +116,10 @@ height: 770px;
         top:16.5px;
         left: 87%;
     }
+    .frame-item{
+        height: 625px;
+    }
+
     .dr-ravi-chatterjee{
         top: 20px;
         left: 15px;
@@ -106,5 +133,73 @@ height: 770px;
         left: 15px;
        width: 90%;
        top:490px;
+    }
+.i-am-dr-container{
+    top:30px;
+    left:-58px;
+}
+    .educator-entrepreneur{
+        top: 295px;
+    }
+    .dr-ravi-chatterjee-container{
+        top: 360px;
+    }
+}
+
+
+@media screen and  (max-width:490px) {
+    .frame-child{
+        height: 620px;
+    }
+    .frame-item{
+        height: 618px;
+    }
+.i-am-dr-container{
+left: 5px;
+}
+.dr-ravi-chatterjee-container{
+    padding: 3px;
+}
+}
+
+
+@media screen and (max-width:410px) {
+    .frame-child{
+height: 635px;        
+    }
+    .frame-item{
+        height: 634px;
+        width: 100%;
+    }
+    .i-am-dr-container{
+        font-size: 3em;
+    }
+    .dr-ravi-chatterjee-container{
+        font-size: 0.9em;
+    }
+    .get-to-know-me-more-parent{
+        top: 670px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .it-is-my{
+        padding: 5px;
+top: 507px;
+border-radius: 3px;
+        font-size: 1.2em;
+        background-color: rgba(255,255,255,0.85);
+    }
+    .i-am-dr-container{
+        font-size: 2.5em;
+    }
+    .educator-entrepreneur{
+font-size: 1em;
+    }
+    .dr-ravi-chatterjee-container{
+        font-size: 0.85em;
+        line-height: 1.6;
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.2);
     }
 }

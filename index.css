@@ -96,7 +96,7 @@
     left: 0;
     border-radius: var(--br-30xl) 0 0 var(--br-30xl);
     background: linear-gradient(90deg, #000, transparent);
-    width: 627px;
+    width: 50%;
   }
   .i-am {
     margin: 0;
@@ -110,7 +110,7 @@
   }
   .i-am-dr-container {
     position: absolute;
-    top: 51px;
+    top: 40px;
     left: calc(50% - 529.5px);
     font-size: var(--font-size-45xl);
     color: var(--color-chocolate);
@@ -118,7 +118,7 @@
   }
   .educator-entrepreneur {
     position: absolute;
-    top: 276px;
+    top: 310px;
     left: 65px;
     font-size: var(--font-size-5xl);
     font-weight: 300;
@@ -162,6 +162,13 @@
     align-items: center;
     justify-content: flex-end;
     gap: 12px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+  }
+  .get-to-know-me-more-parent:hover{
+scale: 0.9;
+transition: 0.6s ease-in-out;
   }
   .rectangle-parent {
     position: relative;
