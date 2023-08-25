@@ -49,6 +49,36 @@ height: 770px;
         left: 10px;
         width: 95.5%;
     }
+    .linkedin-newsletter{
+        top: 33px;
+        left: 30%;
+    }
+    .terms-of-use-parent{
+        width: 100%;
+        left: -106px;
+    }
+    .dr-ravi-chatterjee2{
+width: 100%;
+left: 22.5%;
+    }
+    .terms-of-use{
+        left: 72%;
+    }
+    .cookie-policy{
+        left: 81%;
+    }
+    .privacy{
+        left: 91%;
+    }
+}
+
+@media screen and (max-width:880px){
+    .terms-of-use-parent{
+        width: 89.25%;
+    }
+.dr-ravi-chatterjee2{
+    left: 36.1%;;
+}
 }
 
 @media screen and (max-width:775px){
@@ -89,6 +119,17 @@ height: 770px;
     }       
 }
 
+@media screen and (max-width:650px) {
+    .terms-of-use-parent{
+        width: 82.25%;
+    }
+    .cookie-policy{
+        left: 81.5%;
+    }
+    .dr-ravi-chatterjee2{
+        left: 47%;
+    }
+}
 
 
 @media screen and (max-width:520px){
@@ -108,6 +149,25 @@ height: 770px;
         top: 117px;
         left: 65px;
     }       
+.terms-of-use-parent{
+top: 475px;
+}
+.dr-ravi-chatterjee2{
+left: 62.8%;
+top: 8px;
+}
+.privacy{
+left: 84%;
+top: 62px;
+}
+.terms-of-use{
+left: 54%;
+top: 62px;
+}
+.cookie-policy{
+left: 68.5%;
+top: 62px;
+}
 }
 
 
@@ -201,5 +261,21 @@ font-size: 1em;
         line-height: 1.6;
         border-radius: 5px;
         background-color: rgba(0,0,0,0.2);
+    }
+}
+
+@media screen and (max-width:365px){
+ .dr-ravi-chatterjee2{
+    left:61.8%;
+ }
+    .terms-of-use{
+left: 56.8%;
+
+    }
+    .privacy{
+left: 81%;
+    }
+    .cookie-policy{
+        left: 68.8%;
     }
 }

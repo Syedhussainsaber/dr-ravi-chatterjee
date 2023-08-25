@@ -250,8 +250,8 @@ transition: 0.6s ease-in-out;
   }
   .view-the-newsletter-parent {
     position: absolute;
-    top: 527px;
-    left: 575px;
+    top: 552px;
+    left: 571px;
     border-radius: var(--br-15xl);
     background-color: var(--color-chocolate);
     width: 265px;
@@ -264,7 +264,15 @@ transition: 0.6s ease-in-out;
     justify-content: flex-end;
     gap: 11px;
     font-size: var(--font-size-xl);
-  }
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s ease-in;
+}
+.view-the-newsletter-parent:hover{
+  scale: 0.9;
+transition: 0.7s ease-out;
+}
+
   .frame,
   .frame-icon {
     position: absolute;
@@ -347,6 +355,7 @@ transition: 0.6s ease-in-out;
     font-family: var(--font-roboto);
   }
   .desktop-53-child1,
+  .desktop-53-child2,
   .ellipse-div,
   .group-icon {
     position: absolute;
@@ -354,11 +363,34 @@ transition: 0.6s ease-in-out;
     left: 1625px;
     width: 37px;
     height: 37px;
-  }
-  .desktop-53-child1,
-  .ellipse-div {
+}
+
+.desktop-53-child2{
+left: 85.5%;
+transform: rotate(180deg);
+cursor: pointer;
+scale: 1;
+transition: 0.4s ease-in;
+}
+.desktop-53-child2:hover{
+  scale: 1.1;
+  transition: 0.5s ease-out;
+}
+.desktop-53-child1,
+.ellipse-div {
     left: 257px;
-  }
+}
+.desktop-53-child1{
+  left: 175px;
+  cursor: pointer;
+  scale: 1;
+transition: 0.4s ease-in;
+}
+.desktop-53-child1:hover{
+  scale: 1.1;
+  transition: 0.5s ease-out;
+}
+
   .ellipse-div {
     top: 287px;
     left: 607px;
@@ -420,7 +452,7 @@ transition: 0.6s ease-in-out;
   .watch-the-seminar-container,
   .watch-the-seminar-container1 {
     position: absolute;
-    top: 27px;
+  top: -10px;
     left: calc(50% - 12px);
     font-size: var(--font-size-21xl);
     font-weight: 900;
@@ -844,6 +876,9 @@ transition: 0.6s ease-in-out;
     top: 23px;
     left: 863px;
     line-height: 26px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.7s ease-out;
   }
   .cookie-policy,
   .privacy {
@@ -860,7 +895,26 @@ transition: 0.6s ease-in-out;
     line-height: 35px;
     display: inline-block;
     width: 429px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.7s ease-out;
   }
+  .privacy:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in;
+  }
+.terms-of-use:hover{
+    scale: 0.9;
+transition: 0.5s ease-in;
+  }
+.cookie-policy:hover{
+scale: 0.9;
+transition: 0.5s ease-in;
+}
+.dr-ravi-chatterjee2:hover{
+  scale: 0.9;
+transition: 0.5s ease-in;
+}
   .line-div {
     position: absolute;
     top: -0.25px;
