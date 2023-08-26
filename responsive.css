@@ -8,6 +8,21 @@ height: 780px;
 
 
 @media screen and (max-width:980px) {
+    .desktop-53{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .desktop-53-child{
+        height: 2100px;
+        overflow-x: hidden;
+    overflow-y: scroll;
+    }
+    .hear-form-other-container{
+        left: 25.9%;
+        width: 50%;
+        top: 25px;
+    }
+
     .dr-ravi-chatterjee{
         top: 20px;
     }
@@ -53,12 +68,32 @@ height: 770px;
         top: 33px;
         left: 30%;
     }
+
+    .rectangle-parent1{
+top: 805px;
+left: 485px;
+    }
+    .rectangle-parent2{
+top: 680px;
+left: 592px;
+    }
+    .rectangle-parent3{
+top: 893px;
+left: 627px;
+    }
+    .name-of-the-person-parent{
+        top: 750px;
+        left: 725px;
+    }
+
     .terms-of-use-parent{
         width: 100%;
         left: -106px;
+        top: 1197px;
+        height: 71px;
     }
     .dr-ravi-chatterjee2{
-width: 100%;
+width: 195px;
 left: 22.5%;
     }
     .terms-of-use{
@@ -70,6 +105,42 @@ left: 22.5%;
     .privacy{
         left: 91%;
     }
+
+
+.frame-parent1{
+    top: 842px;
+    left: 384px;
+}
+    .frame-child17{
+        top: 750px;
+        left: 385px;
+    }
+
+
+    .what-is-on-your-mind-parent {
+        width: 32%;
+        text-align: justify;
+        top: 200px;
+        left: 34%;
+    }
+    .wellbeing-and-career {
+        left: 34%;
+        width: 32%;
+        line-height: 1.6;
+        text-align: justify;
+        top: 520px;
+    }
+.frame-child16{
+    width: 30%;
+    top: 460px;
+    left: 1039px;
+    height: 358.05px;
+}
+.lorem-ipsum-dolor2{
+    top: 3536px;
+    left: 38%;
+} 
+
 }
 
 @media screen and (max-width:880px){
@@ -94,6 +165,24 @@ left: 22.5%;
 .it-is-my{
     left: 92px;
     top: 450px;
+}
+
+.hear-form-other-container{
+    left: 33.5%;
+    width: 33%;
+    text-align: center;
+}
+
+.frame-child16{
+    width: 28%;
+    height: 337.05px;
+    top: 484px;
+}
+
+.lorem-ipsum-dolor2{
+    top: 3576px;
+    left: 38%;
+
 }
 
 }
@@ -129,10 +218,30 @@ left: 22.5%;
     .dr-ravi-chatterjee2{
         left: 47%;
     }
+    .lorem-ipsum-dolor2{
+        top: 3561px;
+        left: 34%;
+        text-align: center;
+    }
+    .frame-child16{
+        left: 1021px;
+    }
+    .name-of-the-person-parent{
+left: 645px;
+    }
+.rectangle-parent1{
+left: 545px;
+}
+
+
 }
 
 
 @media screen and (max-width:520px){
+    .desktop-53-child{
+        /* height: 1725px; */
+        height: 2150px;
+    }
     .empowering-individuals-to{
         left: 40px;
     }
@@ -149,24 +258,28 @@ left: 22.5%;
         top: 117px;
         left: 65px;
     }       
-.terms-of-use-parent{
-top: 475px;
-}
+
 .dr-ravi-chatterjee2{
 left: 62.8%;
-top: 8px;
+top: 6px;
+}
+.terms-of-use-parent{
+    top: 1209px;
 }
 .privacy{
 left: 84%;
-top: 62px;
+top: 58px;
+/* top: 62px; */
 }
 .terms-of-use{
 left: 54%;
-top: 62px;
+top: 58px;
+/* top: 62px; */
 }
 .cookie-policy{
 left: 68.5%;
-top: 62px;
+top: 58px;
+/* top: 62px; */
 }
 }
 
@@ -204,6 +317,14 @@ top: 62px;
     .dr-ravi-chatterjee-container{
         top: 360px;
     }
+    .frame-child17{
+        left: 412px;
+        width: 400px;
+    }
+    .frame-parent1{
+        left: 412px;
+        width: 400px;
+    }
 }
 
 
@@ -220,6 +341,30 @@ left: 5px;
 .dr-ravi-chatterjee-container{
     padding: 3px;
 }
+.hear-form-other-container{
+    font-size: 0.89em;
+    left: 39%;
+    width: 22%;
+}
+
+.frame-child17{
+    width: 390px;
+}
+.frame-parent1{
+    width: 390px;
+}
+
+.frame-child16{
+left: 983px;
+width: 23%;
+top: 530px;
+height: 318.05px;
+}
+.lorem-ipsum-dolor2{
+top: 3609px;
+left: 26%;
+}
+
 }
 
 
@@ -253,6 +398,22 @@ height: 635px;
     .get-to-know-me-more-parent{
         top: 670px;
     }
+    .frame-child17{
+left: 442px;
+width: 340px;
+    }
+    .frame-parent1{
+        width: 340px;
+        left: 442px;
+    }
+    .what-is-on-your-mind-parent{
+width: 28%;
+left: 36%;
+    }
+    .wellbeing-and-career{
+width: 28%;
+left: 36%;
+    }
 }
 
 @media screen and (max-width:385px) {
@@ -275,6 +436,29 @@ font-size: 1em;
         border-radius: 5px;
         background-color: rgba(0,0,0,0.2);
     }
+
+    .frame-child16{
+left: 967px;
+width: 21%;
+height: 295.5px;
+top: 562px;
+}
+    .lorem-ipsum-dolor2{
+font-size: 0.89em;
+top: 3656px;
+left: 15.5%;
+text-align: center;
+    }
+.name-of-the-person-parent{
+left: 597px;
+top: 766px;
+}
+.rectangle-parent1{
+    left: 593px;
+    top: 830px;
+
+}
+
 }
 
 @media screen and (max-width:365px){
@@ -291,4 +475,17 @@ left: 81%;
     .cookie-policy{
         left: 68.8%;
     }
+    .hear-form-other-container{
+        left: 41.4%;
+        width: 17%;
+    }
+    .what-is-on-your-mind-parent{
+left: 37%;
+width: 26%;
+    }
+.wellbeing-and-career{
+left: 37%;
+width: 26%;
+}
+
 }
