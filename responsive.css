@@ -75,12 +75,12 @@ height: 770px;
     .home-parent{
         display: none;
     }
-    .bi{
+    .open{
         display: inline-block;
-        position: absolute;
-        left: 88%;
-        top: 20px;
-        cursor: pointer;
+        position: absolute !important;
+        left: 88% !important;
+        top: 20px !important;
+        cursor: pointer !important;
     }
     .frame-div{
         width: 100%;
@@ -529,9 +529,9 @@ top: 58px;
 
 
 @media screen and (max-width:455px){
-    .bi{
-        top:16.5px;
-        left: 87%;
+    .open{
+        top:16.5px !important;
+        left: 87% !important;
     }
     .frame-item{
         height: 625px;

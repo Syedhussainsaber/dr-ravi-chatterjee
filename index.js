@@ -1,3 +1,9 @@
+const openMenu = document.querySelector(".open")
+const closeMenu = document.querySelector(".close")
+const mobileNav = document.querySelector(".mobile-nav")
+
+
+
 // const leftArrow = document.querySelector(".desktop-53-child1")
 // const rightArrow = document.querySelector(".desktop-53-child2")
 // const rectangleGroup0 = document.querySelector(".rectangle-group0")
@@ -132,3 +138,19 @@
 // //     })
 // console.log(leftArrow)
 
+
+const handleOpenMenu = ()=>{
+// mobileNav.style.display = "flex"
+mobileNav.style.transform = 'translateX(0%)'
+mobileNav.style.transition="0.4s ease-in"
+openMenu.style.display="none"
+openMenu.style.transition='0.6s ease-out'
+}
+
+const handleCloseMenu = ()=>{
+    mobileNav.style.transform = "translateX(150%)"
+    mobileNav.style.transition="0.5s ease-out"
+openMenu.style.display="inline-block"
+openMenu.style.transition='0.6s ease-in'
+
+}

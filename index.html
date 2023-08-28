@@ -31,7 +31,7 @@
     ></script>
   </head>
   <body>
-    <div class="desktop-53">
+    <div class="desktop-53" id="home">
       <div class="desktop-53-child"></div>
       <img class="desktop-53-item" alt="" src="./public/rectangle-431@2x.png" />
 
@@ -49,23 +49,83 @@
         width="40"
         height="40"
         fill="currentColor"
-        class="bi bi-list"
+        class="bi bi-list open"
         viewBox="0 0 16 16"
+        onclick="handleOpenMenu()"
       >
         <path
           fill-rule="evenodd"
           d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
         />
       </svg>
+
+      <div class="mobile-nav">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          fill="currentColor"
+          class="bi bi-x-lg close"
+          viewBox="0 0 16 16"
+          onclick="handleCloseMenu()"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+          />
+        </svg>
+        <ul class="mobile-menu">
+          <li>
+            <a href="#home" style="text-decoration: none; color: white">Home</a>
+          </li>
+          <li>
+            <a href="#about" style="text-decoration: none; color: white"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="#blogs" style="text-decoration: none; color: white"
+              >Blogs</a
+            >
+          </li>
+          <li>
+            <a href="#events" style="text-decoration: none; color: white"
+              >Events</a
+            >
+          </li>
+          <li>
+            <a href="#contact-me" style="text-decoration: none; color: white"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
       <div class="home-parent">
-        <b class="home">Home</b>
-        <div class="home">About Me</div>
-        <div class="home">Blogs</div>
-        <div class="home">Events</div>
-        <div class="home">Contact Me</div>
+        <b class="home"
+          ><a href="#home" style="text-decoration: none; color: black"
+            >Home</a
+          ></b
+        >
+        <div class="home">
+          <a href="#about" style="text-decoration: none; color: black"
+            >About Me</a
+          >
+        </div>
+        <div class="home">
+          <a href="#blogs" style="text-decoration: none; color: black">Blogs</a>
+        </div>
+        <div class="home">
+          <a href="#events" style="text-decoration: none; color: black"
+            >Events</a
+          >
+        </div>
+        <div class="home">
+          <a href="#contact" style="text-decoration: none; color: black"
+            >Contact Me</a
+          >
+        </div>
       </div>
       <div class="frame-div">
-        <div class="rectangle-parent">
+        <div class="rectangle-parent" id="about">
           <img class="frame-child" alt="" src="./public/rectangle-458@2x.png" />
 
           <div class="frame-item"></div>
@@ -99,6 +159,7 @@
         class="rectangle-group0"
         onmouseenter="handle0Over()"
         onmouseleave="handle0Leave()"
+        id="blogs"
       >
         <div class="frame-inner"></div>
         <div class="linkedin-newsletter">
@@ -395,7 +456,7 @@
           />
         </div>
       </section>
-      <div class="my-periphery">My periphery</div>
+      <div class="my-periphery" id="events">My periphery</div>
       <div class="frame-group">
         <div class="rectangle-parent1">
           <div class="frame-child3"></div>
@@ -453,7 +514,7 @@
           Wellbeing and career. I feel there is more to your story and if you
           are stuck, I am on Linkedin, Youtube, Instagram, Facebook and Twitter.
         </div>
-        <div class="frame-parent1">
+        <div class="frame-parent1" id="contact-me">
           <div class="email-wrapper">
             <i class="home">Email</i>
           </div>
