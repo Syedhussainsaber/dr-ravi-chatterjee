@@ -1,0 +1,231 @@
+.twitter {
+    font-size: var(--font-size-29xl);
+    font-weight: 900;
+  }
+  .follow-me-on-container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 470.5px);
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-roboto-serif);
+  }
+  .group-childTweet,
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 236px);
+    border-radius: var(--br-29xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 472px;
+    height: 446px;
+  }
+  .group-item {
+    top: 256px;
+    left: calc(50% - 204px);
+    border-radius: var(--br-sm);
+    width: 407px;
+    height: 103px;
+  }
+  .dr-ravi-chatterjee-3 {
+    font-weight: 900;
+  }
+  .drravic {
+    color: var(--color-darkslategray);
+  }
+  .aug-15 {
+    color: inherit;
+  }
+  .dr-ravi-chatterjee-tweet {
+    position: absolute;
+    top: 42px;
+    left: 32px;
+  }
+  .celebrating-freedom-within {
+    position: absolute;
+    top: 292px;
+    left: 144px;
+    font-size: var(--font-size-xs);
+  }
+  .the-essence-of {
+    position: absolute;
+    top: 91px;
+    left: 32px;
+    display: inline-block;
+    width: 407px;
+  }
+  .this-annual-milestone,
+  .youtubecom {
+    position: absolute;
+    top: 276px;
+    left: 144px;
+    font-size: var(--font-size-xs);
+    color: var(--color-darkslategray);
+  }
+  .this-annual-milestone {
+    top: 309px;
+    text-align: left;
+    display: inline-block;
+    width: 269px;
+  }
+  .group-inner,
+  .watch-the-video {
+    position: absolute;
+    top: 207px;
+    left: 32px;
+  }
+  .group-inner {
+    top: 50px;
+    left: 424px;
+    width: 15px;
+    height: 3px;
+  }
+  .comment-stroke-icon,
+  .heart-stroke-icon {
+    position: absolute;
+    bottom: 41px;
+    left: 231px;
+    width: 15px;
+    height: 14px;
+  }
+  .comment-stroke-icon {
+    bottom: 40.49px;
+    left: 32px;
+    height: 14.51px;
+  }
+  .retweet-stroke-icon {
+    position: absolute;
+    bottom: 42.02px;
+    left: 130px;
+    width: 17.88px;
+    height: 12.98px;
+  }
+  .share-stroke-icon,
+  .vector-icon {
+    position: absolute;
+    bottom: 40.2px;
+    left: 425px;
+    width: 15.25px;
+    height: 14.8px;
+  }
+  .vector-icon {
+    height: 3.36%;
+    width: 2.82%;
+    top: 87.44%;
+    right: 27.47%;
+    bottom: 9.19%;
+    left: 69.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .tweet-icon {
+    position: absolute;
+    top: 256px;
+    left: calc(50% - 204px);
+    border-radius: var(--br-sm) 0 0 var(--br-sm);
+    width: 104px;
+    height: 102px;
+    object-fit: cover;
+  }
+  .group-tweetIcon {
+    position: absolute;
+    top: 295px;
+    left: 70px;
+    width: 24px;
+    height: 24px;
+  }
+  .rectangle-parentTweet {
+    position: absolute;
+    top: 116px;
+    left: calc(50% - 478.5px);
+    width: 472px;
+    height: 446px;
+    text-align: justify;
+  }
+  .celebrating-freedom-within1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 218.5px);
+    font-size: var(--font-size-9xl);
+    display: inline-block;
+    font-family: var(--font-roboto-serif);
+    width: 437px;
+  }
+  .published-on-aug {
+    position: absolute;
+    top: 72px;
+    left: calc(50% - 218.5px);
+    font-weight: 900;
+    color: var(--color-chocolate);
+  }
+  .join-me-on {
+    position: absolute;
+    top: 110px;
+    left: 1px;
+    text-align: justify;
+    display: inline-block;
+    width: 404px;
+  }
+  .tweet-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: var(--color-chocolate);
+    width: 204px;
+    height: 50px;
+  }
+  .go-to-twitter {
+    position: absolute;
+    top: 13.33px;
+    left: 23px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .arrow-up-351-iconTweet {
+    position: absolute;
+    height: 39.54%;
+    width: 9.69%;
+    top: 30.83%;
+    right: 12.62%;
+    bottom: 29.63%;
+    left: 77.68%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 162px;
+    left: 0;
+    width: 204px;
+    height: 50px;
+    font-size: var(--font-size-xl);
+  }
+  .celebrating-freedom-within-on-parent {
+    position: absolute;
+    top: 233px;
+    left: calc(50% + 41.5px);
+    width: 437px;
+    height: 212px;
+  }
+  .follow-me-on-twitter-parent {
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 489px);
+    width: 957px;
+    height: 562px;
+  }
+  .group-parent {
+    position: relative;
+    border-radius: var(--br-29xl);
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 731px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  

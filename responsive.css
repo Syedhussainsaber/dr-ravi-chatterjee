@@ -8,6 +8,48 @@ height: 780px;
 
 
 @media screen and (max-width:980px) {
+    .rectangle-group0{
+        width: 95%;
+        left: 2.2%;
+        top: 1660px;
+    }
+    .frame-inner{
+        width: 80%;
+        left: 10%;
+    top: 140px;
+    }
+.stress-the-stress{
+    width: 37%;
+    left: 52%;
+    font-size: 2em;
+    top: 158px;
+}
+.published-on-july{
+    left: 55%;
+    top: 210px;
+}
+.have-you-ever{
+    width: 37%;
+    left: 50.35%;
+    top: 246px;
+}
+.view-the-newsletter-parent{
+    left: 52%;
+    top: 554px;
+}
+.frame-parent{
+    left: 14%;
+}
+.desktop-53-child1{
+left: 5px;
+top: 2011px;
+}
+.desktop-53-child2{
+left: 94.5%;
+cursor: pointer;
+top: 2011px;
+}
+
     .desktop-53{
         overflow-x: hidden;
         overflow-y: scroll;
@@ -152,6 +194,69 @@ left: 22.5%;
 }
 }
 
+
+@media screen and (max-width:850px){
+.rectangle-group0{
+    width: 95%;
+    left: 2.2%;
+    top: 1660px;
+    height: 800px;
+}
+.frame-inner{
+    width: 80%;
+    left: 10%;
+    top: 98px;
+    height: 645px;
+}
+.linkedin-newsletter{
+top: 9px;
+width: 90%;
+text-align: center;
+left: 0px;
+}
+.stress-the-stress{
+    width: 50%;
+    left: 28%;
+    top: 108px;
+}
+.published-on-july{
+    left: 55%;
+    top: 152px;
+}
+.have-you-ever{
+    width: 75%;
+    left: 12.45%;
+    top: 512px;
+}
+
+.frame-parent{
+    left: 14%;
+}
+.frame-icon{
+    left: 66%;
+    height: 282px;
+    width: 216px;
+    top: 0;
+}
+.frame{
+    left: 66%;
+    top: 232px;
+    height: 64px;
+    width: 216px;
+}
+.frame1{
+    top: 235px;
+    left: 204px;
+    width: 233px;
+}
+.view-the-newsletter-parent{
+    left: 32.5%;
+    top: 680px;
+}
+
+}
+
+
 @media screen and (max-width:775px){
     .dr-ravi-chatterjee{
         top: 20px;
@@ -233,9 +338,148 @@ left: 645px;
 left: 545px;
 }
 
-
+.rectangle-group0{
+    width: 95%;
+    left: 2.2%;
+    top: 1660px;
+    height: 800px;
+}
+.frame-inner{
+    width: 80%;
+    left: 10%;
+    top: 98px;
+    height: 645px;
+}
+.linkedin-newsletter{
+    top: 9px;
+    width: 90%;
+    text-align: center;
+    left: 20px;
+    font-size: 2.25em;
+}
+.stress-the-stress{
+    width: 75%;
+    left: 14%;
+    top: 103px;
+    font-size: 2em;
+}
+.published-on-july{
+    left: 51%;
+    top: 148px;
+}
+.have-you-ever{
+    width: 75%;
+    left: 12.45%;
+    top: 450px;
+}
+.view-the-newsletter-parent{
+    left: 28%;
+    top: 658px;
+}
+.frame-parent{
+    left: 0%;
+    top: 187px;
+}
+.frame-icon{
+    left: 66%;
+height: 225px;
+width: 216px;
+top: 0;
+}
+.frame{
+    left: 74%;
+    top: 185px;
+    height: 64px;
+    width: 172px;
+}
+.frame1{
+    top: 190px;
+    left: 215px;
+    width: 228px;
+    font-size: 0.7em;
+}
+.desktop-53-child2{
+    left: 92.5%;
+}
 }
 
+@media screen and (max-width:550px){
+    .rectangle-group0{
+width: 94%;
+left: 2.8%;
+padding: 5px;
+top: 1685px;
+height: 687px;
+    }
+    .frame-inner{
+width: 80%;
+left: 10%;
+top: 85px;
+height: 532px;
+    }
+    .stress-the-stress{
+        width: 75%;
+        left: 14%;
+        top: 90px;
+        font-size: 1.75em;
+    }
+    .published-on-july{
+left: 33%;
+top: 130px;
+    }
+    .linkedin-newsletter{
+font-size: 1.8em;
+text-align: center;
+    }
+    .have-you-ever{
+width: 78%;
+top: 397px;
+font-size: 0.9em;
+padding: 5px 5px 5px 0px;
+text-align: center;
+left: 49px;
+    }
+    .view-the-newsletter-parent{
+left: 26%;
+top: 627px;
+    }
+    .frame-parent{
+left: -9%;
+top: 175px;
+    }
+    .frame-icon{
+width: 86%;
+height: 206px;
+left: 66%;
+    }
+    .frame{
+        left: 81.5%;
+        top: 159px;
+        height: 54px;
+        width: 156px;
+    }
+    .frame1{
+        top: 164px;
+        left: 236px;
+        width: 216px;
+        font-size: 0.9em;
+    }
+    .the-linkedin-article-parent{
+        width: 196px;
+        font-size: 0.6em;
+    }
+    .view-the-full-version-parent{
+        font-size: 1.25em;
+    }
+    .desktop-53-child1{
+left: 1.1%;
+top: 2010px;
+    }
+    .desktop-53-child2{
+        left: 91.75%;
+top: 2010px;
+    }
+}
 
 @media screen and (max-width:520px){
     .desktop-53-child{
@@ -325,6 +569,49 @@ top: 58px;
         left: 412px;
         width: 400px;
     }
+    .rectangle-group0{
+height: 711px;
+    }
+    .frame-inner{
+width: 80%;
+left: 10%;
+top:113px;
+height: 538px;
+    }
+    .linkedin-newsletter{
+font-size: 1.8em;
+width: 90%;
+text-align: center;
+    }
+    .stress-the-stress{
+text-align: center;
+top: 117px;
+width: 72%;
+font-size: 1.55em;
+    }
+    .published-on-july{
+left: 27%;
+top: 157px;
+    }
+    .have-you-ever{
+width: 78%;
+top: 417px;
+left: 49px;
+    }
+    .view-the-newsletter-parent{
+        left: 19%;
+        top: 656px;
+    }
+    .frame-parent{
+left: -26%;
+top: 191px;
+    }
+    .desktop-53-child1{
+left: 1.1%;
+    }
+    .desktop-53-child2{
+        left: 90%;
+    }
 }
 
 
@@ -366,7 +653,6 @@ left: 26%;
 }
 
 }
-
 
 @media screen and (max-width:410px) {
     .desktop-53-inner{
@@ -457,6 +743,38 @@ top: 766px;
     left: 593px;
     top: 830px;
 
+}
+
+.rectangle-group0{
+height: 711px;
+}
+/* .frame-inner{
+
+}
+.linkedin-newsletter{
+
+} */
+/* .stress-the-stress{
+
+} */
+.published-on-july{
+left: 24%;
+top: 157px;
+}
+.have-you-ever{
+top: 413px;
+left: 41px;
+font-size: 0.8em;
+}
+.view-the-newsletter-parent{
+left: 11%;
+}
+.frame-parent{
+left: -41%;
+top: 191px;
+}
+.desktop-53-child2{
+left: 88.5%;
 }
 
 }

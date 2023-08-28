@@ -1,0 +1,158 @@
+.group-child1 {
+    position: absolute;
+    top: 116px;
+    left: calc(50% - 489px);
+    border-radius: var(--br-29xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 978px;
+    height: 474px;
+  }
+  .youtube {
+    font-weight: 900;
+  }
+  .playlist {
+    font-size: var(--font-size-21xl);
+  }
+  .youtube-playlist {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 481px);
+    font-size: var(--font-size-29xl);
+    font-family: var(--font-roboto-serif);
+  }
+  .posted-on-aug,
+  .the-intention-behind {
+    position: absolute;
+    left: calc(50% + 46px);
+  }
+  .the-intention-behind {
+    top: 183px;
+    font-size: var(--font-size-9xl);
+    display: inline-block;
+    font-family: var(--font-roboto-serif);
+    width: 405px;
+  }
+  .posted-on-aug {
+    top: 323px;
+    font-weight: 900;
+    color: var(--color-chocolate);
+  }
+  .in-a-world {
+    position: absolute;
+    top: 384px;
+    left: 536px;
+    text-align: justify;
+    display: inline-block;
+    width: 404px;
+  }
+  .group-child2,
+  .group-child3 {
+    position: absolute;
+    left: 0;
+    width: 448px;
+  }
+  .group-child2 {
+    top: 0;
+    border-radius: var(--br-5xl) var(--br-5xl) 0 0;
+    height: 252px;
+    object-fit: cover;
+  }
+  .group-child3 {
+    top: 252px;
+    border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    height: 76px;
+  }
+  .watch-the-full {
+    position: relative;
+    font-weight: 900;
+  }
+  .go-to-the {
+    position: relative;
+    text-decoration: underline;
+  }
+  .arrow-up-351-svgrepo-com-1-icon {
+    position: relative;
+    width: 22.17px;
+    height: 22.17px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .go-to-the-full-video-parent {
+    width: 169.17px;
+    height: 22.17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-base);
+  }
+  .watch-the-full-video-parent {
+    position: absolute;
+    top: 267px;
+    left: 24px;
+    width: 217px;
+    height: 56.17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-div {
+    position: absolute;
+    top: 189px;
+    left: 37px;
+    width: 448px;
+    height: 328px;
+    font-size: var(--font-size-xl);
+  }
+  .well-being-series {
+    position: absolute;
+    top: 482px;
+    left: 313px;
+  }
+  .arrow-up-351-icon1 {
+    position: relative;
+    width: 19.77px;
+    height: 19.77px;
+  }
+  .go-to-playlist-parent {
+    position: absolute;
+    top: 474px;
+    left: 536px;
+    border-radius: var(--br-15xl);
+    background-color: var(--color-chocolate);
+    width: 198px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) 10.539749145507812px 15.370012283325195px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--gap-2xs);
+    font-size: var(--font-size-xl);
+    cursor: pointer;
+  }
+  .slider-container {
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 489px);
+    width: 978px;
+    height: 590px;
+  }
+  .group-root {
+    position: relative;
+    border-radius: var(--br-29xl);
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 731px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  
