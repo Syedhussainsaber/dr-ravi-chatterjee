@@ -8,6 +8,32 @@ height: 780px;
 
 
 @media screen and (max-width:980px) {
+.my-periphery{
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+.rectangle-icon{
+    display: none;
+}
+.rectangle-div{
+    display:  none;
+}
+.watch-the-seminar-container1 {
+    display: none;
+}
+.innovations-in-service{
+    display: none;
+}
+.lorem-ipsum-dolor1{
+    display: none;
+}
+.read-more-of{
+    display: none;
+}
+.see-the-list-parent{
+    display: none;
+} 
     .rectangle-group0{
         width: 95%;
         left: 2.2%;
@@ -314,6 +340,49 @@ left: 0px;
 }
 
 @media screen and (max-width:650px) {
+
+.frame-child1{
+    left: 490px;
+    top: -28px;
+    height: 260px;
+}
+.frame-child2{
+    left: 490px;
+    top: 233px;
+    height: 90px;
+    width: 278px;
+}
+.innovations-in-service1{
+    left: 510px;
+    top: 239px;
+}
+.watch-the-seminar-container{
+    line-height: 1.2;
+    font-size: 1.5em;
+    top: 337px;
+left: 400px;
+}
+.lorem-ipsum-dolor{
+    font-size: 0.8em;
+    top: 335px;
+    left: 652px;
+    width: 260px;
+}
+.read-more-of1{
+    left: 372px;
+    top: 562px;
+}
+.read-the-full-paper-group{
+    left: 410.47px;
+color: black;
+top: 532px;
+}
+.see-the-list-group{
+    left: 398px;
+    top: 605px;
+}
+
+/* Footer Styling */
     .terms-of-use-parent{
         width: 82.25%;
     }
@@ -404,6 +473,51 @@ top: 0;
 }
 
 @media screen and (max-width:550px){
+
+    /* Periphery Section */
+
+.frame-child1{
+    left: 505px;
+top: -82px;
+height: 260px;
+}
+.frame-child2{
+top: 178px;
+left: 505px;
+}
+.innovations-in-service1{
+    left: 522px;
+    top: 182px;
+}
+.watch-the-seminar-container{
+    top: 300px;
+    font-size: 1.25em;
+    left: 440px;
+}
+.lorem-ipsum-dolor{
+    font-size: 0.7em;
+    top: 298px;
+    left: 648px;
+    width: 15%;
+    text-align: justify;
+}
+.read-more-of1{
+    left: 520px;
+    top: 559px;
+}
+.read-the-full-paper-group{
+    left: 467.47px;
+    top: 468px;
+}
+.see-the-list-group{
+    left: 554px;
+    top: 606px;
+}
+.my-periphery{
+    top: 2400px;
+
+}
+
     .rectangle-group0{
 width: 94%;
 left: 2.8%;
@@ -652,6 +766,31 @@ top: 3609px;
 left: 26%;
 }
 
+}
+
+@media screen and (max-width:430px){
+    /* Periphery Section */
+    .watch-the-seminar-container{
+line-height: 1.5;
+top: 300px;
+font-size: 0.9em;
+left: 497px;
+    }
+    .lorem-ipsum-dolor{
+        font-size: 0.6em;
+        top: 294px;
+        left: 649px;
+        width: 11%;
+    }
+    .read-the-full-paper-group{
+        font-size: 0.6em;
+        left: 514.47em;
+        top: 442px;
+    }
+    .my-periphery{
+        top: 2424px;
+        font-size: 1.9em;
+    }
 }
 
 @media screen and (max-width:410px) {
