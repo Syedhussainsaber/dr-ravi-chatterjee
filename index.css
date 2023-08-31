@@ -951,9 +951,87 @@ transition: 0.4s ease-in;
     position: absolute;
     top: 0;
     left: 764px;
-    width: 444px;
-    height: 55px;
+    transition: 0.6s ease-out;
+    /* width: 444px; */
+    /* height: 55px; */
+    color: #000;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+
   }
+
+  .frame-child18 {
+    position: absolute;
+    top: 0;
+    left: 844px;
+    /* width: 444px; */
+    /* height: 55px; */
+    color: #000;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease-out;
+  }
+
+  .frame-child19 {
+    position: absolute;
+    top: 0;
+    left: 924px;
+    /* width: 444px; */
+    /* height: 55px; */
+    color: #000;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease-out;
+  }
+
+  .frame-child20 {
+    position: absolute;
+    top: 0;
+    left: 1004px;
+    /* width: 444px; */
+    /* height: 55px; */
+    color: #000;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease-out;
+  }
+.frame-child19:hover{
+  scale: 0.9;
+  transition: 0.5s ease-in;
+  background-color: rgb(255, 199, 68);
+}
+.frame-child20:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in;
+    background-color: rgb(255, 199, 68);
+  }
+  .frame-child17:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in;
+    background-color: rgb(255, 199, 68);
+  }
+  .frame-child18:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in;
+    background-color: rgb(255, 190, 68);
+  }
+
   .cookie-policy,
   .privacy,
   .terms-of-use {

@@ -169,3 +169,19 @@ openMenu.style.display="inline-block"
 openMenu.style.transition='0.6s ease-in'
 
 }
+
+const handleTwitter = ()=>{
+    window.open("https://twitter.com/DrRaviC","_blank")
+}
+
+const handleYoutube= ()=>{
+window.open('https://www.youtube.com/@chatterjeeravi/featured',"_blank")
+}
+
+const handleInsta = ()=>{
+    window.open('https://www.instagram.com/ravi.chatterjee/',"_blank")
+}
+
+const handleLinkedin = ()=>{
+    window.open('https://www.linkedin.com/in/ravichatterjee/','_blank')
+}

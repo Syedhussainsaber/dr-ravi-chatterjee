@@ -181,9 +181,21 @@ left: 22.5%;
 }
     .frame-child17{
         top: 750px;
-        left: 385px;
+        left: 400px;
     }
 
+    .frame-child18{
+        top: 750px;
+        left: 500px;
+    }
+    .frame-child19{
+        top: 750px;
+        left: 600px;
+    }
+    .frame-child20{
+        top: 750px;
+        left: 700px;
+    }
 
     .what-is-on-your-mind-parent {
         width: 32%;
@@ -676,8 +688,17 @@ top: 58px;
         top: 360px;
     }
     .frame-child17{
-        left: 412px;
-        width: 400px;
+        left: 420px;
+        /* width: 400px; */
+    }
+    .frame-child18{
+        left: 520px;
+    }
+    .frame-child19{
+        left: 620px;
+    }
+    .frame-child20{
+        left: 720px;
     }
     .frame-parent1{
         left: 412px;
@@ -748,9 +769,7 @@ left: 5px;
     width: 22%;
 }
 
-.frame-child17{
-    width: 390px;
-}
+
 .frame-parent1{
     width: 390px;
 }
@@ -824,9 +843,31 @@ height: 635px;
         top: 670px;
     }
     .frame-child17{
-left: 442px;
-width: 340px;
+left: 452px;
+/* width: 340px; */
+top: 770px;
+width: 40px;
+height: 40px;
     }
+.frame-child18{
+    width: 40px;
+    top: 770px;
+    height: 40px;
+    left: 552px;
+}
+.frame-child19{
+    top: 770px;
+    width: 40px;
+    height: 40px;
+    left: 642px;
+}
+.frame-child20{
+    top: 770px;
+    width: 40px;
+    height: 40px;
+    left: 732px;
+}
+
     .frame-parent1{
         width: 340px;
         left: 442px;
