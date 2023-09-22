@@ -18,6 +18,39 @@ document.querySelectorAll('li a').forEach(anchor => {
 });
 
 
+// popup
+
+
+window.addEventListener("load", function(){
+    this.setTimeout(function open(event){
+document.querySelector("#POP-UP").style.display = "block";
+    },1000
+    )
+});
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector("#POP-UP").style.display = "none";
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const leftArrow = document.querySelector(".desktop-53-child1")
 // const rightArrow = document.querySelector(".desktop-53-child2")
@@ -185,3 +218,10 @@ const handleInsta = ()=>{
 const handleLinkedin = ()=>{
     window.open('https://www.linkedin.com/in/ravichatterjee/','_blank')
 }
+
+
+
+
+
+
+

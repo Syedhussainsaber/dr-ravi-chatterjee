@@ -1,3 +1,90 @@
+/* popup */
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#POP-UP{
+  
+  z-index: 1;
+  width: 193px;
+  height: 100px;
+
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: none;
+}
+button{
+    display: block;
+    margin: 0 0 20px auto;
+    background: transparent;
+    font-size: 30px;
+    border-radius: 100%;
+    width: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+
+#close{
+  border-radius: 50%;
+  width: 36px;
+  height: 35px;
+  
+  margin-left: 100px;
+}
+
+#POP-UP a{
+  color: #000;
+  
+}
+#POP-UP .poster{
+  width: 100%;
+  height: auto;
+  margin-left: -155%;
+  cursor: pointer;
+}
+
+
+.close{
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 3px;
+}
+.close:hover{
+    background: crimson;
+
+}
+
+
+
+
+
+
+
+
+
 
 .mobile-nav{
   color: white;
@@ -110,6 +197,7 @@ li{
 .home:hover{
   font-weight: 500;
 }
+
 
   .open{
     /* display: none !important; */
@@ -497,10 +585,10 @@ transition: 0.4s ease-in;
   .frame-child1,
   .rectangle-icon {
     top: 33px;
-    left: 982px;
-    border-radius: var(--br-5xl) var(--br-5xl) 0 0;
+    left: 1015px;
+    border-radius: 25px;
     width: 278px;
-    height: 300px;
+    height: 424px;
   }
   .frame-child1 {
     left: 354px;
@@ -509,7 +597,7 @@ transition: 0.4s ease-in;
   .rectangle-div {
     position: absolute;
     top: 333px;
-    left: 982px;
+    left: 1015px;
     border-radius: 0 0 var(--br-5xl) var(--br-5xl);
     background-color: var(--color-black);
     width: 278px;
@@ -522,7 +610,7 @@ transition: 0.4s ease-in;
   .innovations-in-service1 {
     position: absolute;
     top: 352px;
-    left: 999px;
+    left: 1020px;
     font-weight: 900;
     color: var(--color-white);
     display: inline-block;
@@ -538,7 +626,7 @@ transition: 0.4s ease-in;
   .watch-the-seminar-container1 {
     position: absolute;
   top: -10px;
-    left: calc(50% - 12px);
+    left: calc(53% - 12px);
     font-size: var(--font-size-21xl);
     font-weight: 900;
   }
@@ -549,8 +637,8 @@ transition: 0.4s ease-in;
   .lorem-ipsum-dolor1 {
     position: absolute;
     top: 238px;
-    left: 655px;
-    text-align: justify;
+    left: 695px;
+    letter-spacing: 1px;
     display: inline-block;
     width: 265px;
   }
@@ -561,7 +649,7 @@ transition: 0.4s ease-in;
   .read-more-of1 {
     position: absolute;
     top: 484px;
-    left: 982px;
+    left: 1015px;
     font-size: var(--font-size-xl);
     text-align: justify;
   }
@@ -587,7 +675,7 @@ transition: 0.4s ease-in;
   .read-the-full-paper-parent {
     position: absolute;
     top: 414px;
-    left: 999.47px;
+    left: 1020.47px;
     width: 172.67px;
     height: 22.17px;
     display: flex;
@@ -611,7 +699,7 @@ transition: 0.4s ease-in;
   .see-the-list-parent {
     position: absolute;
     top: 528px;
-    left: 982px;
+    left: 1015px;
     border-radius: var(--br-15xl);
     border: 1px solid var(--color-chocolate);
     box-sizing: border-box;
@@ -647,6 +735,16 @@ transition: 0.4s ease-in;
     font-weight: 900;
     color: var(--color-chocolate);
   }
+ 
+  .orbit{
+    margin-top: 40%;
+    padding-top: 50%;
+    margin-left: 30%;
+    padding-left: 50%;
+  }
+
+ 
+
   .frame-child3,
   .frame-child4 {
     position: absolute;
@@ -693,6 +791,7 @@ transition: 0.4s ease-in;
     opacity: 0.4;
     padding: 20px;
   }
+
   .hear-form-other {
     font-weight: 500;
   }
@@ -761,6 +860,7 @@ transition: 0.4s ease-in;
     height: 92px;
     opacity: 0.6;
   }
+  
   .frame-child11,
   .frame-child12 {
     position: absolute;
@@ -840,10 +940,13 @@ transition: 0.4s ease-in;
     height: 173px;
     font-size: 24.59px;
     color: var(--color-chocolate);
-  }
+}
+
+ 
+
   .frame-child16 {
     position: absolute;
-    top: 410px;
+    top: 510px;
     left: 1558.18px;
     border-radius: var(--br-77xl);
     background-color: rgba(35, 35, 35, 0.58);
@@ -865,7 +968,7 @@ transition: 0.4s ease-in;
     font-size: 36px;
   }
   .lorem-ipsum-dolor2 {
-    top: 3500px;
+    top: 3600px;
     left: 70%;
     display: inline-block;
     width: 243.86px;
@@ -1089,7 +1192,7 @@ transition: 0.5s ease-in;
   }
   .terms-of-use-parent {
     position: absolute;
-    top: 509px;
+    top: 485px;
     left: 0;
     width: 1227px;
     height: 54px;
@@ -1097,7 +1200,7 @@ transition: 0.5s ease-in;
   }
   .frame-container {
     position: absolute;
-    top: 4102px;
+    top: 4150px;
     left: calc(50% - 613px);
     width: 1227px;
     height: 563px;
@@ -1120,4 +1223,8 @@ transition: 0.5s ease-in;
       flex-direction: column;
     }
   }
+
+
+
+ 
   
