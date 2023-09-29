@@ -490,7 +490,7 @@ top: 0;
 
 .frame-child1{
     left: 505px;
-top: -82px;
+top: -65px;
 height: 260px;
 }
 .frame-child2{
@@ -996,11 +996,13 @@ width: 26%;
     #POP-UP {
       width: 95%; /* Adjust for smaller screens */
       max-width: none;
+      
     }
   }
 
   @media (min-width: 601px) and (max-width: 1024px) {
     #POP-UP {
+      margin-left: 10%;
       width: 80%; /* Adjust for medium-sized screens */
     }
   }
